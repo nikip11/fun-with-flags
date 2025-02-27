@@ -1,0 +1,12 @@
+services:
+  vue-app:
+    build: .
+    tty: true
+    container_name: app
+    volumes:
+      - ./app:/app
+    ports:
+      - 3000:3000
+    environment:
+      - NODE_ENV=development
+
