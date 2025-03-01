@@ -1,4 +1,4 @@
-SERVICE_NAME=vue-app
+SERVICE_NAME=fun-with-flags
 HOST_UID=$(shell id -u)
 HOST_GID=$(shell id -g)
 

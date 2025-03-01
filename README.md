@@ -1,14 +1,23 @@
-# skeleton-vue-docker
+# Fun with flags
 
-## To create a new Vue Project
-docker-compose run web vue create .
+## Necesitamos:
+- [ ] json con los países
+- [ ] svg de las banderas
 
-## to start yarn serve
-docker-compose up
-docker-compose run web yarn serve
+## Modos de juego
+- on four
 
-## to build project
-docker-compose run web yarn build
+Selecciona la correcta de entre cuatro opciones
 
-## to lint project
-docker-compose run web yarn lint
+- Escribe el nombre del país
+
+Escribe el nombre del país de la bandera que aparece
+
+
+## Pantallas
+
+- [ ] pantalla de bienvenida
+- [ ] seleccionar el modo
+- [ ] pantalla de juego modo on four
+- [ ] pantalla de juego modo escribe el pais
+- [ ] puntuación 

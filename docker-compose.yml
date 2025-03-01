@@ -1,12 +1,11 @@
 services:
-  vue-app:
+  fun-with-flags:
     build: .
     tty: true
-    container_name: app
+    container_name: FunWithFlags
     volumes:
       - ./app:/app
     ports:
       - 3000:3000
     environment:
       - NODE_ENV=development
-
